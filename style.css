@@ -1,0 +1,261 @@
+html {
+  --bg-color-button: rgb(27, 198, 103);
+  --text-color: white;
+  --bg-color-one: rgb(36, 36, 36);
+  --bg-color-two: black;
+}
+
+* {
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 120%;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color-two);
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 50px 0px 50px 0px;
+}
+
+.logo {
+  width: 200px; /* width of container */
+}
+
+
+header {
+  background-image: url("./assets/ditadura.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 1% 20% 0% 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+#div-1 {
+  height: 100vh;
+}
+
+
+#div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+#div-3 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.img-h3 {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  width: 100%;
+
+}
+
+.img-h3 h3 {
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 10vh 5vh 10vh;
+  line-height: 30px;
+  font-weight:  bold;
+}
+.img-h3 img{
+  margin-right: 5px;
+}
+.img-h3 img, .img-h3 h3 {
+  border-radius: 10px;
+  height: 300px;
+  width: 350px;
+}
+
+#icone {
+  height: 100px;
+}
+
+footer {
+  padding: 1% 20% 1% 20%;
+}
+
+.div-icones div{
+  width: 80%;
+  font-size: 20px;
+  text-align: justify;
+  background-color: black;
+  margin: 30px auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.div-icones div i {
+  font-size: 40px;
+  margin-right: 30px;
+}
+
+.div-container {
+  padding: 1% 20% 5% 20%;
+}
+
+.div-arrastar {
+  background-color: white;
+  width: 20px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 10px auto 25px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.div-bolinha {
+  position: relative;
+  height: 7px;
+  width: 7px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: black;
+  animation: MoveUpDown 2.5s linear infinite;
+  left: auto;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: -20px;
+  }
+}
+
+#div-1,
+#div-3,
+#div-5,
+footer {
+  background-color: var(--bg-color-one);
+}
+
+#div-2,
+#div-4,
+#div-6,
+header {
+  background-color: var(--bg-color-two);
+}
+
+ol{
+  text-align: justify;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+    background-color: var(--bg-color-two);
+}
+
+li {
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.presos {
+  padding: 10px 20px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  background-color: var(--bg-color-one);
+  max-width: 700px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: rgb(27, 198, 103);
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border: 1px solid rgb(27, 198, 103);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+}
+
+button:hover {
+  border: 1px solid rgb(31, 95, 59);
+  background-color: rgb(31, 95, 59);
+  cursor: pointer;
+}
+
+
+@media (max-width: 500px){
+  .img-h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-h3 img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .presos {
+    max-width: 400px;
+    /* min-width: 200px; */
+  }
+
+  header, footer, #div-1, #div-2, #div-3, #div4, #div-5, #div-6{
+    padding: 1% 5% 0% 5%;
+  }
+
+  #div-1, header {
+    height: 100%;
+  }
+
+  body {
+    width: 100vh;
+  }
+
+  .div-arrastar, .div-bolinha {
+      display: none;
+    }
+  
+
+}
+
