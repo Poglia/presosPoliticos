@@ -29,7 +29,6 @@ h1 {
   width: 200px; /* width of container */
 }
 
-
 header {
   background-image: url("./assets/ditadura.jpg");
   background-repeat: no-repeat;
@@ -42,11 +41,9 @@ header {
   justify-content: space-between;
 }
 
-
 #div-1 {
   height: 100vh;
 }
-
 
 #div-2 {
   display: flex;
@@ -70,7 +67,6 @@ header {
   justify-content: space-around;
   margin-bottom: 40px;
   width: 100%;
-
 }
 
 .img-h3 h3 {
@@ -83,12 +79,13 @@ header {
   justify-content: center;
   padding: 5vh 10vh 5vh 10vh;
   line-height: 30px;
-  font-weight:  bold;
+  font-weight: bold;
 }
-.img-h3 img{
+.img-h3 img {
   margin-right: 5px;
 }
-.img-h3 img, .img-h3 h3 {
+.img-h3 img,
+.img-h3 h3 {
   border-radius: 10px;
   height: 300px;
   width: 350px;
@@ -102,7 +99,7 @@ footer {
   padding: 1% 20% 1% 20%;
 }
 
-.div-icones div{
+.div-icones div {
   width: 80%;
   font-size: 20px;
   text-align: justify;
@@ -146,7 +143,8 @@ footer {
 }
 
 @keyframes MoveUpDown {
-  0%, 100% {
+  0%,
+  100% {
     bottom: 0;
   }
   50% {
@@ -168,7 +166,7 @@ header {
   background-color: var(--bg-color-two);
 }
 
-ol{
+ol {
   text-align: justify;
   display: table;
   margin-left: auto;
@@ -176,7 +174,7 @@ ol{
 }
 
 ul li {
-    background-color: var(--bg-color-two);
+  background-color: var(--bg-color-two);
 }
 
 li {
@@ -222,17 +220,26 @@ button:hover {
   cursor: pointer;
 }
 
-
-@media (max-width: 500px){
+@media (max-width: 500px) {
   .img-h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  h1 {
+    font-size: 60px;
+  }
+  h4 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
   .img-h3 img {
     margin-right: 0;
     margin-bottom: 30px;
+    margin-top: 30px;
+
   }
 
   .presos {
@@ -240,22 +247,48 @@ button:hover {
     /* min-width: 200px; */
   }
 
-  header, footer, #div-1, #div-2, #div-3, #div4, #div-5, #div-6{
-    padding: 1% 5% 0% 5%;
+  header,
+  footer,
+  #div-1,
+  #div-2,
+  #div-3,
+  #div4,
+  #div-5,
+  #div-6 {
+    padding: 1% 10% 0% 10%;
   }
 
-  #div-1, header {
-    height: 100%;
+  header {
+    height: 1200px;
+    justify-content: space-around;
+  }
+
+  #div-1 {
+    height: 1100px;
+  }
+
+  #div-1 h3{
+    background-color: transparent;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 600px;
+    text-align: justify;
   }
 
   body {
     width: 100vh;
   }
 
-  .div-arrastar, .div-bolinha {
-      display: none;
-    }
-  
+  .div-arrastar,
+  .div-bolinha {
+    display: none;
+  }
 
+  .img-h3 img{
+    border-radius: 10px;
+    height: 600px;
+    width: 650px;
+  }
 }
-
