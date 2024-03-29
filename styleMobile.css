@@ -1,28 +1,15 @@
-@media (max-width: 700px) {
-  body {
-    width: 100vh;
+@media (max-device-width: 700px) {
+
+  .section-grande {
+    height: 100vh;
   }
 
-  /* Header */
-
-  header {
-    height: 1200px;
-  }
-
-  #div-1 {
-    height: 1500px;
-  }
-
-  #div-2 {
-    height: 1300px;
+  #div-4 {
+    justify-content: space-between;
   }
 
   #div-2 h2 {
     margin-bottom: 0px;
-  }
-
-  #div-2 p {
-    font-size: 40px;
   }
 
   .section-grande {
@@ -30,18 +17,13 @@
   }
 
   h1 {
-    font-size: 100px;
+    font-size: 7vh;
     margin: 0;
   }
 
   h2 {
-    font-size: 60px;
-    min-width: 550px;
+    font-size: 5vh;
     margin-bottom: 30px;
-  }
-
-  h3 {
-    height: 50px;
   }
 
   .exemplo {
@@ -54,13 +36,17 @@
     color: white;
     margin: 0px;
     padding: 0px;
-    font-size: 40px;
-    max-height: 100px;
-    width: auto;
+    font-size: 3vh;
+    height: 5%;
+    min-height: 0px;
+  }
+
+  #div-2 p {
+    font-size: 3vh;
   }
 
   h4 {
-    font-size: 40px;
+    font-size: 3vh;
     margin: 0px;
     text-align: center;
     font-weight: 200;
@@ -68,19 +54,13 @@
 
   .img-h3 img {
     border-radius: 10px;
-    max-height: 650px;
-    max-width: 700px;
-    width: 600px;
-    height: 600px;
-    margin-right: 0;
+    width: 100%;
+    height: 70%;
   }
 
   button {
-    font-size: 25px;
+    font-size: 2.5vh;
     font-weight: bold;
-    max-width: 600px;
-    max-height: 100px;
-    min-height: 80px;
     padding: 10px 5px 10px 5px;
     border-radius: 10px;
   }
@@ -89,78 +69,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+    margin: 0px;
+}
 
-  .div-advogado img {
+.div-advogado img {
     margin-right: 0;
-    height: 500px;
+    height: 50%;
   }
   .div-advogado p {
-    margin-right: 0;
-    height: 500px;
     text-align: center;
+    font-size: 3.5vh;
+    margin: 10px 0px;
   }
 
-  .img-h3 {
+  .img-h3, .list-direito-indenizacao  {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .presos {
-    max-width: 600px;
-  }
-
-  .list-direito-indenizacao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 30px;
-    max-width: 600px;
   }
 
   .list-direito-indenizacao div {
-    height: 200px;
-    max-width: 600px;
     border-radius: 10px;
-    padding: 0px 20px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    width: 90%;
+    height: 10vh;
   }
 
   .list-direito-indenizacao div i {
-    font-size: 50px;
+    font-size: 4vh;
   }
 
-  .list-direito-indenizacao div h3 {
-    margin: 0px;
-    margin-bottom: 10px;
-  }
-
-  #div-3 {
-    height: 1200px;
-  }
 
   #div-3 p {
-    font-size: 40px;
+    font-size: 2vh;
     font-style: italic;
     font-weight: bold;
   }
 
+  ol {
+    margin-top: 0px;
+  }
+
   ol li {
-    font-size: 40px;
+    font-size: 3vh;
     text-align: left;
   }
 
-  #div-4 p {
-    font-size: 40px;
-    height: 300px;
-  }
-
   #div-5 {
-    height: 1200px;
     justify-content: space-around;
   }
 
@@ -169,23 +126,30 @@
   }
 
   footer p {
-    font-size: 35px;
-    text-align: justify;
+    font-size: 3vh;
+    text-align: center;
   }
 
   .footer-frase {
-    font-size: 25px;
+    font-size: 2.5vh;
+  }
+
+  #div-5 {
+    justify-content: space-evenly;
+  }
+
+  #div-5 h2{
+
+    margin: 0px;
   }
 
   .div-icones div {
-    font-size: 40px;
     text-align: left;
-    height: 200px;
-    width: 600px;
+    height: 30%;
     padding: 0px 0px 0px 40px;
   }
 
   .div-icones div i {
-    font-size: 50px;
+    font-size: 3vh;
   }
 }

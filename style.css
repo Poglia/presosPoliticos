@@ -15,7 +15,6 @@ h1 {
   margin: 30px 0px;
   border-radius: 5px;
   background-color: var(--bg-color-one);
-  max-width: 700px;
   text-align: left;
 }
 
@@ -39,11 +38,7 @@ header {
   padding: 1% 20% 0% 20%;
 }
 
-#div-1 {
-  height: 100vh;
-}
-
-#div-2 {
+#div-1, #div-2, #div-3 {
   height: 100vh;
 }
 
@@ -51,7 +46,6 @@ header {
   background-image: url("./assets/image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .img-h3 {
@@ -59,11 +53,9 @@ header {
   text-align: left;
   justify-content: space-around;
   margin-bottom: 40px;
-  width: 100%;
 }
 
 .img-h3 h3 {
-  min-width: auto;
   margin: 0;
   background-color: white;
   color: black;
@@ -82,8 +74,6 @@ header {
   border-radius: 10px;
   height: 380px;
   min-height: 200px;
-  width: 430px;
-  min-width: 430px;
 }
 
 #icone {
@@ -95,9 +85,7 @@ footer {
 }
 
 .div-icones div {
-  width: 80%;
   font-size: 20px;
-  text-align: justify;
   background-color: black;
   margin: 30px auto;
   padding: 15px 30px;

@@ -3,7 +3,6 @@
 {
   h2 {
     font-size: 25px;
-    min-width: 550px;
   }
 
   .div-arrastar,
@@ -18,11 +17,9 @@
   
   .div-advogado img{    
     margin-right: 0;
-    height: 500px;
   }
   .div-advogado p{    
     margin-right: 0;
-    height: 500px;
     text-align: center;
   }
 
@@ -48,9 +45,7 @@
     margin: 0px;
     padding: 0px;
     height: 100px;
-    min-height: 100px;
     width: 700px;
-    min-width: 500px;
     text-align: center;
   }
 
