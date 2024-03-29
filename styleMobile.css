@@ -1,26 +1,28 @@
 @media (max-width: 700px) {
-  header{
-    height: 1200px;
-}
+  body {
+    width: 100vh;
+  }
 
-#div-1 {
-      height: 1500px;
+  /* Header */
+
+  header {
+    height: 1200px;
+  }
+
+  #div-1 {
+    height: 1500px;
   }
 
   #div-2 {
     height: 1300px;
-}
+  }
 
-#div-2 h2{
+  #div-2 h2 {
     margin-bottom: 0px;
-}
+  }
 
-#div-2 p{
+  #div-2 p {
     font-size: 40px;
-}
-
-  body {
-    width: 100vh;
   }
 
   .section-grande {
@@ -64,7 +66,7 @@
     font-weight: 200;
   }
 
-.img-h3 img {
+  .img-h3 img {
     border-radius: 10px;
     max-height: 650px;
     max-width: 700px;
@@ -87,8 +89,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-    
+  }
+
   .div-advogado img {
     margin-right: 0;
     height: 500px;
@@ -109,7 +111,7 @@
     max-width: 600px;
   }
 
-  .list-direito-indenizacao{
+  .list-direito-indenizacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,14 +128,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    ;
   }
 
-  .list-direito-indenizacao div i{
+  .list-direito-indenizacao div i {
     font-size: 50px;
   }
-  
-  .list-direito-indenizacao div h3{
+
+  .list-direito-indenizacao div h3 {
     margin: 0px;
     margin-bottom: 10px;
   }
@@ -141,8 +142,8 @@
   #div-3 {
     height: 1200px;
   }
-  
-  #div-3 p{
+
+  #div-3 p {
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
@@ -152,7 +153,7 @@
     font-size: 40px;
   }
 
-  #div-4 p{
+  #div-4 p {
     font-size: 40px;
     height: 300px;
   }
@@ -164,10 +165,9 @@
 
   footer {
     height: 1300px;
-
   }
 
-  footer p{
+  footer p {
     font-size: 35px;
     text-align: justify;
   }
@@ -184,7 +184,7 @@
     padding: 0px 0px 0px 40px;
   }
 
-  .div-icones div i{
+  .div-icones div i {
     font-size: 50px;
   }
 }
