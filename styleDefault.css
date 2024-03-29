@@ -1,0 +1,31 @@
+html {
+  --bg-color-button: rgb(27, 198, 103);
+  --text-color: white;
+  --bg-color-one: rgb(36, 36, 36);
+  --bg-color-two: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color-two);
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#div-1,
+#div-3,
+#div-5 {
+  background-color: var(--bg-color-one);
+}
+
+#div-2,
+#div-4,
+header,
+footer {
+  background-color: var(--bg-color-two);
+}

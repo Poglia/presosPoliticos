@@ -1,0 +1,57 @@
+
+@media (max-width: 1200px) and (min-width: 700px)
+{
+  h2 {
+    font-size: 25px;
+    min-width: 550px;
+  }
+
+  .div-arrastar,
+  .div-bolinha {
+    display: none;
+  }
+
+  .div-advogado {    
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .div-advogado img{    
+    margin-right: 0;
+    height: 500px;
+  }
+  .div-advogado p{    
+    margin-right: 0;
+    height: 500px;
+    text-align: center;
+  }
+
+  #div-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .img-h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-h3 img{
+    margin-right: 0;
+  }
+
+  #div-1 h3{
+    background-color: transparent;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    min-height: 100px;
+    width: 700px;
+    min-width: 500px;
+    text-align: center;
+  }
+
+}
