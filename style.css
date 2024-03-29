@@ -51,6 +51,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
+  padding-bottom: 0;
 }
 #div-3 {
   display: flex;
@@ -70,6 +71,7 @@ header {
 }
 
 .img-h3 h3 {
+  min-width: auto;
   margin: 0;
   background-color: white;
   color: black;
@@ -87,8 +89,10 @@ header {
 .img-h3 img,
 .img-h3 h3 {
   border-radius: 10px;
-  height: 300px;
-  width: 350px;
+  height: 380px;
+  min-height: 380px;
+  width: 430px;
+  min-width: 430px;
 }
 
 #icone {
@@ -154,15 +158,15 @@ footer {
 
 #div-1,
 #div-3,
-#div-5,
-footer {
+#div-5 {
   background-color: var(--bg-color-one);
 }
 
 #div-2,
 #div-4,
 #div-6,
-header {
+header, 
+footer {
   background-color: var(--bg-color-two);
 }
 
@@ -185,10 +189,6 @@ li {
   font-size: 20px;
 }
 
-h2 {
-  margin-bottom: 30px;
-  font-size: 35px;
-}
 
 .presos {
   padding: 10px 20px;
@@ -210,7 +210,7 @@ button {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: white;
 }
 
@@ -220,7 +220,101 @@ button:hover {
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
+
+.div-advogado {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px;
+  align-items: center;
+}
+.advogado-direita button{
+  margin-bottom: 0px;
+}
+
+.advogado-direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.div-advogado img {
+  height: 400px;
+  margin-right: 30px;
+}
+
+.div-advogado p {
+  font-size: 25px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+/* largura maxima é daquele valor para baixo */
+
+@media (max-width: 1200px) and (min-width: 700px)
+{
+  h2 {
+    font-size: 25px;
+  }
+
+  .div-arrastar,
+  .div-bolinha {
+    display: none;
+  }
+
+  .div-advogado {    
+    flex-direction: column;
+  }
+  
+  .div-advogado img{    
+    margin-right: 0;
+    height: 500px;
+  }
+  .div-advogado p{    
+    margin-right: 0;
+    height: 500px;
+    text-align: center;
+  }
+
+  #div-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .img-h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-h3 img{
+    margin-right: 0;
+  }
+
+  #div-1 h3{
+    background-color: transparent;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    min-height: 100px;
+    width: auto;
+    min-width: auto;
+    text-align: justify;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .div-arrastar,
+  .div-bolinha {
+    display: none;
+  }
   .img-h3 {
     display: flex;
     flex-direction: column;
@@ -246,6 +340,7 @@ button:hover {
     max-width: 400px;
     /* min-width: 200px; */
   }
+
 
   header,
   footer,
@@ -279,11 +374,6 @@ button:hover {
 
   body {
     width: 100vh;
-  }
-
-  .div-arrastar,
-  .div-bolinha {
-    display: none;
   }
 
   .img-h3 img{
