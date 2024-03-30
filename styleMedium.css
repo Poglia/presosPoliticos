@@ -1,26 +1,50 @@
 
 @media (max-width: 1200px) and (min-width: 700px)
 {
+  .section-grande {
+    padding: 2vh 2vh 2vh 2vh;
+  }
+
+  h1 {
+    font-size: 9vh;
+  }
   h2 {
-    font-size: 25px;
+    font-size: 5vh;
+    margin: 0px;
   }
 
-  .div-arrastar,
-  .div-bolinha {
-    display: none;
+  h4, .subtitulo-div2, #div-3 p, .info-advogado p{
+    font-size: 3vh;
   }
 
-  .div-advogado {    
-    flex-direction: column;
-    align-items: center;
+  button {
+    font-size: 2.5vh;
   }
-  
+
+  .div-advogado {
+    margin: 30px 30px;
+
+  }
   .div-advogado img{    
-    margin-right: 0;
+    margin-right: 30px;
+
   }
   .div-advogado p{    
-    margin-right: 0;
-    text-align: center;
+    margin-top: 0px;
+    text-align: left;
+  }
+
+  .advogado-direita {
+    justify-content: space-between;
+  }
+
+  .list-direito-indenizacao div {
+    width: 80vh;
+    height: 15vh;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    padding: 1vh 3vh;
+    text-align: left;
   }
 
   #div-1 {
@@ -33,10 +57,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
   }
 
   .img-h3 img{
     margin-right: 0;
+    height: 50vh;
+    width: 70vh;
   }
 
   #div-1 h3{
@@ -44,9 +71,48 @@
     color: white;
     margin: 0px;
     padding: 0px;
-    height: 100px;
-    width: 700px;
+    height: 1vh;
+    font-size: 3vh;
     text-align: center;
+  }
+
+  #div-2 {
+    justify-content: space-around;
+  }
+
+  .subtitulo-div2 {
+    width: 80vh;
+  }
+
+  #div-3 {
+    justify-content: space-around;
+  }
+  ol {
+    margin: 0px;
+    width: 85vh;
+  }
+
+  ol li {
+    font-size: 3vh;
+  }
+
+  .div-icones div{
+    font-size: 3vh;
+    text-align: left;
+    width: 90vh;
+  }
+
+  .div-icones div i {
+    font-size: 3vh;
+  }
+
+  footer p {
+    font-size: 3vh;
+    width: 90vh;
+  }
+
+  footer i {
+    font-size: 4vh;
   }
 
 }
