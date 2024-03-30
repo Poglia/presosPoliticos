@@ -4,23 +4,32 @@ h1 {
   margin: 50px 0px 50px 0px;
 }
 
+h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
 .logo {
   width: 200px; 
 }
 
 .list-direito-indenizacao div{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;  
   margin: 30px 0px;
   border-radius: 5px;
   background-color: var(--bg-color-one);
-  text-align: left;
+  width: 90vh;
+  max-width: 120vh;
 }
 
 .list-direito-indenizacao i {
-  font-size: 30px;
+  font-size: 6vh;
   margin: 0 30px 0 20px;
+}
+
+.subtitulo-div2 {
+  font-size: 3vh;
 }
 .section-grande{
   display: flex;
@@ -152,10 +161,10 @@ li {
 
 
 button {
-  background-color: rgb(27, 198, 103);
+  background-color: var(--bg-color-button);
   text-transform: uppercase;
   padding: 15px 40px;
-  border: 1px solid rgb(27, 198, 103);
+  border: 1px solid var(--bg-color-button);
   border-radius: 10px;
   font-weight: bold;
   font-size: 18px;
@@ -199,9 +208,6 @@ button:hover {
   text-align: left;
 }
 
-h2 {
-  font-size: 35px;
-  margin-bottom: 40px;
-}
+
 /* largura maxima é daquele valor para baixo */
 

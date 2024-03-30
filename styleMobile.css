@@ -2,6 +2,7 @@
 
   .section-grande {
     height: 100vh;
+    padding: 5% 3% 5% 3%;
   }
 
   #div-4 {
@@ -10,10 +11,6 @@
 
   #div-2 h2 {
     margin-bottom: 0px;
-  }
-
-  .section-grande {
-    padding: 5% 3% 5% 3%;
   }
 
   h1 {
@@ -26,8 +23,8 @@
     margin-bottom: 30px;
   }
 
-  .exemplo {
-    margin: 0px 0px 0px 0px;
+  .img-h3 img {
+    margin: 0px 0px 10px 0px;
   }
 
   #div-1 h3 {
@@ -76,6 +73,7 @@
     margin-right: 0;
     height: 50%;
   }
+
   .div-advogado p {
     text-align: center;
     font-size: 3.5vh;
@@ -117,17 +115,10 @@
     text-align: left;
   }
 
-  #div-5 {
-    justify-content: space-around;
-  }
-
-  footer {
-    height: 1300px;
-  }
-
   footer p {
-    font-size: 3vh;
-    text-align: center;
+    width: 95%;
+    font-size: 2.5vh;
+    text-align: justify;
   }
 
   .footer-frase {
@@ -138,8 +129,7 @@
     justify-content: space-evenly;
   }
 
-  #div-5 h2{
-
+  #div-1 h2, #div-5 h2{
     margin: 0px;
   }
 
