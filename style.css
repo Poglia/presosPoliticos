@@ -49,6 +49,7 @@ header {
 
 #div-1, #div-2, #div-3 {
   height: 100vh;
+  min-height: 700px;
 }
 
 #div-3 {
