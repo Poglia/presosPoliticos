@@ -22,16 +22,22 @@
   }
 
   .div-advogado {
-    margin: 30px 30px;
-
+    margin: 30px 30px;;
+    flex-direction: column;
   }
+
+  .advogado-direita {
+    justify-content: center;
+    align-items: center;
+  }
+
   .div-advogado img{    
-    margin-right: 30px;
+    margin-bottom: 30px;
 
   }
   .div-advogado p{    
     margin-top: 0px;
-    text-align: left;
+    text-align: center;
   }
 
   .advogado-direita {
@@ -39,7 +45,7 @@
   }
 
   .list-direito-indenizacao div {
-    width: 80vh;
+    width: 100%;
     height: 15vh;
     border-radius: 10px;
     font-size: 2.5vh;
@@ -62,8 +68,8 @@
 
   .img-h3 img{
     margin-right: 0;
-    height: 50vh;
-    width: 70vh;
+    height: 70%;
+    width: 100%;
   }
 
   #div-1 h3{
@@ -81,7 +87,7 @@
   }
 
   .subtitulo-div2 {
-    width: 80vh;
+    width: 100%;
   }
 
   #div-3 {
@@ -89,7 +95,7 @@
   }
   ol {
     margin: 0px;
-    width: 85vh;
+    width: 100%;
   }
 
   ol li {
@@ -99,7 +105,7 @@
   .div-icones div{
     font-size: 3vh;
     text-align: left;
-    width: 90vh;
+    width: 100%;
   }
 
   .div-icones div i {
@@ -108,11 +114,11 @@
 
   footer p {
     font-size: 3vh;
-    width: 90vh;
+    width: 100%;
   }
 
   footer i {
-    font-size: 4vh;
+    font-size: 100%;
   }
 
 }
