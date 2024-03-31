@@ -13,6 +13,37 @@ h4 {
   font-size: 3vh;
 }
 
+.section-grande{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0% 15% 0% 15%;
+}
+
+header {
+  background-image: url("../assets/ditadura.jpg");
+}
+
+
+#div-3 {
+  background-image: url("../assets/image.jpg");
+}
+
+header, #div-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header, #div-1, #div-2, #div-3 {
+  height: 100vh;
+  min-height: 700px;
+}
+
+#div-3 p {
+  font-size: 3vh;
+}
+
 .logo {
   width: 200px; 
 }
@@ -34,32 +65,6 @@ h4 {
 
 .subtitulo-div2 {
   font-size: 3vh;
-}
-.section-grande{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0% 15% 0% 15%;
-}
-
-header {
-  background-image: url("../assets/ditadura.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  padding: 1% 20% 0% 20%;
-}
-
-#div-1, #div-2, #div-3 {
-  height: 100vh;
-  min-height: 700px;
-}
-
-#div-3 {
-  background-image: url("../assets/image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .img-h3 {
@@ -116,47 +121,12 @@ footer p i {
   margin-right: 30px;
 }
 
-.div-arrastar {
-  background-color: white;
-  width: 20px;
-  height: 40px;
-  border-radius: 15px;
-  margin: 10px auto 25px auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  position: relative;
-}
-
-.div-bolinha {
-  position: relative;
-  height: 7px;
-  width: 7px;
-  border-radius: 5px;
-  margin: auto;
-  background-color: black;
-  animation: MoveUpDown 2.5s linear infinite;
-  left: auto;
-}
-
-@keyframes MoveUpDown {
-  0%,
-  100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: -25px;
-  }
-}
 
 ol {
   text-align: justify;
   display: table;
   margin-left: auto;
   margin-right: auto;
-}
-
-ul li {
-  background-color: var(--bg-color-two);
 }
 
 li {
@@ -166,6 +136,7 @@ li {
   font-weight: bold;
   font-size: 4vh;
 }
+
 button {
   background-color: var(--bg-color-button);
   text-transform: uppercase;
@@ -189,19 +160,6 @@ button:hover {
   margin: 50px 0px;
   align-items: center;
 }
-.advogado-direita button{
-  margin-bottom: 0px;
-  width: 100%;
-
-}
-
-.advogado-direita {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 400px;
-}
 
 .div-advogado img {
   height: 400px;
@@ -214,10 +172,16 @@ button:hover {
   text-align: left;
 }
 
-#div-3 p {
-  font-size: 3vh;
+.advogado-direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
 }
 
-
-/* largura maxima é daquele valor para baixo */
+.advogado-direita button{
+  margin-bottom: 0px;
+  width: 100%;
+}
 

@@ -1,0 +1,32 @@
+
+.div-arrastar {
+    background-color: white;
+    width: 20px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 10px auto 25px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  
+  .div-bolinha {
+    position: relative;
+    height: 7px;
+    width: 7px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: black;
+    animation: MoveUpDown 2.5s linear infinite;
+    left: auto;
+  }
+  
+  @keyframes MoveUpDown {
+    0%,
+    100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: -25px;
+    }
+  }
