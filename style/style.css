@@ -44,7 +44,7 @@ h4 {
 }
 
 header {
-  background-image: url("./assets/ditadura.jpg");
+  background-image: url("../assets/ditadura.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -57,7 +57,7 @@ header {
 }
 
 #div-3 {
-  background-image: url("./assets/image.jpg");
+  background-image: url("../assets/image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
