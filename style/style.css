@@ -34,7 +34,7 @@ header, #div-3 {
   background-size: cover;
 }
 
-header, #div-1, #div-2, #div-3 {
+header, #div-1, #div-2, #div-3, #div-5 {
   height: 100vh;
   min-height: 700px;
 }
@@ -78,6 +78,7 @@ header, #div-1, #div-2, #div-3 {
   font-size: 3.5vh;
   text-transform: uppercase;
   text-align: left;
+  font-weight: 500;
 }
 
 .caso-real div {
@@ -109,6 +110,7 @@ footer {
   display: flex;
   align-items: center;
   font-size: 3vh;
+  text-align: left;
 }
 
 .servicos-oferecidos-itens div i {

@@ -8,6 +8,7 @@
   #div-1 {
     display: flex;
     flex-direction: column;
+    min-height: 1000px;
   }
 
   #div-1 h3{
@@ -24,6 +25,7 @@
   h2 {
     font-size: 5vh;
     margin: 0px;
+    margin-bottom: 20px;
   }
 
   h4, .subtitulo-div2, #div-3 p, .info-advogado p{  
@@ -72,7 +74,6 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-
   }
 
   .caso-real img{
