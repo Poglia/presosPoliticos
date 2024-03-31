@@ -5,9 +5,22 @@
     justify-content: space-around;
   }
 
+  #div-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #div-1 h3{
+    background-color: transparent;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+  }
+
   h1 {
     font-size: 9vh;
   }
+
   h2 {
     font-size: 5vh;
     margin: 0px;
@@ -26,11 +39,6 @@
     flex-direction: column;
   }
 
-  .advogado-direita {
-    justify-content: center;
-    align-items: center;
-  }
-
   .div-advogado img{    
     margin-bottom: 30px;
     margin-right: 0px;
@@ -45,6 +53,11 @@
     justify-content: space-between;
   }
 
+  .advogado-direita {
+    justify-content: center;
+    align-items: center;
+  }
+
   .list-direito-indenizacao div {
     width: 100%;
     height: 15vh;
@@ -54,12 +67,7 @@
     text-align: left;
   }
 
-  #div-1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img-h3 {
+  .caso-real {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,16 +75,9 @@
 
   }
 
-  .img-h3 img{
+  .caso-real img{
     margin-right: 0px;
     width: 90%;
-  }
-
-  #div-1 h3{
-    background-color: transparent;
-    color: white;
-    font-size: 3vh;
-    text-align: center;
   }
 
   .subtitulo-div2 {
@@ -92,13 +93,13 @@
     font-size: 3vh;
   }
 
-  .div-icones div{
+  .servicos-oferecidos-itens div{
     font-size: 3vh;
     text-align: left;
     width: 100%;
   }
 
-  .div-icones div i {
+  .servicos-oferecidos-itens div i {
     font-size: 3vh;
   }
 
@@ -110,5 +111,4 @@
   footer i {
     font-size: 100%;
   }
-
 }

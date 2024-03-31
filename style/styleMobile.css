@@ -20,14 +20,14 @@
     margin-bottom: 30px;
   }
 
-  .img-h3 img {
+  .caso-real img {
     border-radius: 10px;
     width: 90%;
     height: 70%;
     margin: 0px 0px 10px 0px;
   }
 
-  .img-h3 div {
+  .caso-real div {
     margin-left: 0px;
   }
 
@@ -94,7 +94,7 @@
     width: 90%;
   }
 
-  .img-h3, .list-direito-indenizacao  {
+  .caso-real, .list-direito-indenizacao  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,7 +154,7 @@
     margin: 0px;
   }
 
-  .div-icones div {
+  .servicos-oferecidos-itens div {
     text-align: left;
     padding: 20px 30px 20px 40px;
     height: 20vh;
