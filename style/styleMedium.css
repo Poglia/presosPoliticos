@@ -103,12 +103,8 @@
     font-size: 3vh;
   }
 
-  footer p {
+  .footer-paragrafo {
     font-size: 3vh;
     width: 100%;
-  }
-
-  footer i {
-    font-size: 100%;
   }
 }

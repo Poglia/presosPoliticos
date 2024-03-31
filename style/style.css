@@ -89,19 +89,15 @@ header, #div-1, #div-2, #div-3 {
   border-radius: 20px;
 }
 
-#icone {
-  height: 100px;
-}
-
 footer {
   height: 100vh;
 }
 
-footer p {
+.footer-paragrafo {
   font-size: 3vh;
 }
 
-footer p i {
+.footer-frase {
   font-size: 4vh;
 }
 
@@ -119,7 +115,6 @@ footer p i {
   font-size: 4vh;
   margin-right: 30px;
 }
-
 
 ol {
   text-align: justify;

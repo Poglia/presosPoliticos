@@ -132,7 +132,7 @@
     text-align: left;
   }
 
-  footer p {
+  .footer-paragrafo {
     width: 95%;
     font-size: 2.5vh;
     text-align: justify;
@@ -140,10 +140,6 @@
 
   .footer-frase {
     font-size: 2vh;
-  }
-
-  footer p i {
-    font-size: 3vh;
   }
 
   #div-5 {
